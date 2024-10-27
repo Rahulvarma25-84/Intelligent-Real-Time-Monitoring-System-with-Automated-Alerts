@@ -112,9 +112,9 @@ def analyze_image_with_clip(image_bytes):
 # Function to send an email alert using Outlook SMTP server
 def send_email_alert(subject, body):
     # Outlook SMTP server configuration
-    sender_email = "BL.EN.U4EAC21033@bl.students.amrita.edu"  # Replace with your Outlook email
-    receiver_email = "BL.EN.U4EAC21031@bl.students.amrita.edu"  # Replace with the receiver's email
-    password = "neehar@0309"  # Replace with your Outlook account password or app-specific password
+    sender_email = "***********"  # Replace with your Outlook email
+    receiver_email = "****************"  # Replace with the receiver's email
+    password = "**********"  # Replace with your Outlook account password or app-specific password
 
     # Create the email content
     msg = MIMEMultipart()
